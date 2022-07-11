@@ -87,8 +87,10 @@ else if (cuotas > 12){
     alert("15% de recargo" + " =   $" + total*15/100)
 }
 
-let intereses = total*cuotas/100
+let intereses = total*5/100
 
 let preciofinal = total/cuotas + intereses 
 
 alert("te quedaria cuotas de $" + preciofinal)
+
+alert("precio final $" + (total+intereses))
