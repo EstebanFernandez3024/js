@@ -20,3 +20,22 @@ let preciofinal = total/cuotas + intereses
 alert("te quedaria cuotas de $" + preciofinal)
 
 alert("precio final $" + (total+intereses))
+
+
+class Formulario{
+
+    constructor(nombre,apellido, edad, domicilio, codigoPostal, ciudad, pais, estadoCivil){
+        this.nombre=nombre;
+        this.apellido=apellido;
+        this.edad=edad;
+        this.domicilio=domicilio;
+        this.codigoPostal=codigoPostal;
+        this.ciudad=ciudad;
+        this.pais=pais;
+        this.estadoCivil=estadoCivil;
+    }
+    
+}
+
+const formularios = new Formulario("Esteban", "Fernandez", 33, "Rivadavia 3024", 1824, "Buenos Aires","Argentina","solero")
+ console.log(formularios);
