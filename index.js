@@ -12,8 +12,12 @@ const tarjetasHtml = POKEMON.pokemon.reduce((acc, elemento, i) => {
                 </div>   
                 <p>
                     ${elemento.name}
-                </p>  
+                </p> 
+                <div>    <p>
+                ${elemento.egg}
+            </p>  </div> 
             </div>
+        
         `       
 },"")
 
